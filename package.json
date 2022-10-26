@@ -1,0 +1,17 @@
+{
+  "name": "iagroupdisplay",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "killport": "npx kill-port 3000",
+    "start:dev": "nodemon display.js",
+    "start": "node display.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
